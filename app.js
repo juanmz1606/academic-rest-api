@@ -46,8 +46,6 @@ PeriodRoutes(app);
 const CourseRoutes = require("./routes/course.routes");
 CourseRoutes(app);
 
-
-
 app.listen(port, () => {
     console.log("Server is running...");
 });
